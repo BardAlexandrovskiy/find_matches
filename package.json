@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "node_modules/.bin/eslint src/*.{js,jsx} --fix",
     "start": "parcel ./src/index.html",
-    "build": "rm -rf dist && parcel build ./src/index.html --public-url /test && cp ./dist/index.html ./dist/404.html",
+    "build": "rm -rf dist && parcel build ./src/index.html --public-url /find_matches && cp ./dist/index.html ./dist/404.html",
     "deploy": "gh-pages -d ./dist"
   },
   "repository": {
